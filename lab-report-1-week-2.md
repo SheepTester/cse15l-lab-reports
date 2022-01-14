@@ -14,11 +14,11 @@ the big Download button, then followed the instructions from there.
 ![Using SSH to remotely connect in the terminal](./images/report1-ssh.png)
 
 To remotely connect, first I got my course-specific account username from
-https://sdacs.ucsd.edu/~icc/index.php: `cs15lwi22asy`. Then, I reset my password
-there. Apparently, selecting "No" for "Change MyTritonLink password?" doesn't
-work if you click the blue "Check Password" button; it unfortunately reset my
-normal UCSD password. Instead, you have to focus on the "Confirm Password" text
-field and press the enter key.
+<https://sdacs.ucsd.edu/~icc/index.php>: `cs15lwi22asy`. Then, I reset my
+password there. Apparently, selecting "No" for "Change MyTritonLink password?"
+doesn't work if you click the blue "Check Password" button; it unfortunately
+reset my normal UCSD password. Instead, you have to focus on the "Confirm
+Password" text field and press the enter key.
 
 Then, in the terminal, I ran
 
