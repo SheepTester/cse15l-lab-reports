@@ -6,7 +6,7 @@
 
 I had already installed VS Code, and it has been a while, so I don't really
 remember how I installed it. If I remember correctly, the installation process
-was pretty painless; I probably went to https://code.visualstudio.com/, clicked
+was pretty painless; I probably went to <https://code.visualstudio.com/>, clicked
 the big Download button, then followed the instructions from there.
 
 ## Remotely connecting
