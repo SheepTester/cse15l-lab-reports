@@ -107,3 +107,15 @@ One issue I had with this was that VS Code wasn't acknowledging my SSH key, so I
 kept having to type my password. It turned out that VS Code was running on
 Windows rather than in WSL, where I had my SSH keys stored. I just copied my
 `.ssh` folder into my Windows home folder, which worked.
+
+With this,
+I am able to compile and run
+a Java program
+with **zero keystrokes**
+because
+my file is already on the server
+(VS Code is running over SSH),
+and with Java VS Code extensions,
+I can click on "Run" above the `main` method
+to run the program
+without pressing any keys.
