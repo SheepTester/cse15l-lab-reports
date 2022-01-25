@@ -123,3 +123,43 @@ and with Java VS Code extensions,
 I can click on "Run" above the `main` method
 to run the program
 without pressing any keys.
+
+<iframe
+  style="width: 100%"
+  height="315"
+  src="https://www.youtube.com/embed/9rBtmCpYflY"
+  title="YouTube video player: copying from local to remote server (TWO CLICKS)"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+>
+</iframe>
+
+I am also able to **copy a file from my local computer to the remote server**
+using VS Code by dragging and dropping, which takes around one to three mouse
+clicks, depending on whether the file exists and if I am capable of dragging a
+file.
+
+In the video above, I used **4 clicks** (which Professor Politz considers
+keystrokes):
+
+1. A failed attempt to drag a file (it ended up creating a selection box, for
+   some reason).
+2. Dragging the file from File Explorer to the remote VS Code instance.
+3. Clicking "Replace" since `WhereAmI.java` already exists on the remote server.
+4. Clicking "Run" to compile and run the Java program.
+
+Alternatively, I could use my keyboard to copy a file over:
+
+1. ctrl + A, ctrl + C (4 keystrokes) to copy the entire file opened in VS Code
+   running locally on my computer.
+2. alt + tab (2 keystrokes) to switch to the remote VS Code.
+3. ctrl + N/A, ctrl + V (4 keystrokes) to paste the copied file contents. I
+   could either first create a new file (ctrl + N) or replace the existing
+   contents of a file (ctrl + A), hence the ctrl + N/A.
+
+In total, with my keyboard, it would only take **10 keystrokes** to copy a file.
+This is a significant improvement in efficiency compared to having to type out
+an `scp` command with the username, host, file name, and destination and type
+your password to copy a file over, then log into the server via `ssh`, typing
+your password again, to compile and run the Java program.
