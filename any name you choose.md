@@ -1,4 +1,8 @@
-Roman *italics* **bold**
+---
+layout: default
+---
+
+Roman _italics_ **bold**
 
 # Big words
 
@@ -7,6 +11,7 @@ Roman *italics* **bold**
 [home page](https://sheeptester.github.io/) with logo ![logo](https://sheeptester.github.io/favicon.ico)
 
 > Live laugh love
+>
 > - Mark Twain
 
 Digits of pi:

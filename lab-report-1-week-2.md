@@ -1,4 +1,8 @@
-# Lab report 1
+---
+layout: default
+title: Lab report 1
+image: pc
+---
 
 ## Installing VS Code
 

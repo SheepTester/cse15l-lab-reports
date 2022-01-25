@@ -1,1 +1,8 @@
 theme: jekyll-theme-midnight
+
+baseurl: /cse15l-lab-reports # the subpath of your site, e.g. /blog
+url: https://sheeptester.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+plugins:
+  - jekyll-sitemap
