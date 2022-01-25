@@ -10,7 +10,7 @@ image: pc
 
 I had already installed VS Code, and it has been a while, so I don't really
 remember how I installed it. If I remember correctly, the installation process
-was pretty painless; I probably went to https://code.visualstudio.com/, clicked
+was pretty painless; I probably went to <https://code.visualstudio.com/>, clicked
 the big Download button, then followed the instructions from there.
 
 ## Remotely connecting
@@ -111,3 +111,15 @@ One issue I had with this was that VS Code wasn't acknowledging my SSH key, so I
 kept having to type my password. It turned out that VS Code was running on
 Windows rather than in WSL, where I had my SSH keys stored. I just copied my
 `.ssh` folder into my Windows home folder, which worked.
+
+With this,
+I am able to compile and run
+a Java program
+with **zero keystrokes**
+because
+my file is already on the server
+(VS Code is running over SSH),
+and with Java VS Code extensions,
+I can click on "Run" above the `main` method
+to run the program
+without pressing any keys.
