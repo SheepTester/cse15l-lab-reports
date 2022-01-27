@@ -1,6 +1,12 @@
 ---
 ---
 
+:root {
+  color-scheme: dark;
+}
+
+@import 'syntax-thankful_eyes';
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
@@ -39,12 +45,13 @@ body {
   padding: 40px;
   margin: 0 auto;
   max-width: 80ch;
-}
-.content :first-child {
-  margin-top: 0;
-}
-.content :last-child {
-  margin-bottom: 0;
+
+  :first-child {
+    margin-top: 0;
+  }
+  :last-child {
+    margin-bottom: 0;
+  }
 }
 
 h1,
@@ -67,6 +74,11 @@ pre {
   padding: 20px;
   white-space: pre-wrap;
 }
-code {
-  color: #fde047;
+p,
+h1,
+h2,
+h3 {
+  code {
+    color: #fde047;
+  }
 }

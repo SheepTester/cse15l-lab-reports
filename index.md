@@ -14,7 +14,7 @@ whatever you like
 
 {% for report in page.reports %}
 
-- [{{ report.title }}]({{ report.path }}.html)
+- **[{{ report.title }}]({{ report.path }}.html)**
 - [{{ report.title }}](https://sheeptester.github.io/cse15l-lab-reports/{{ report.path }}.html)
 - [{{ report.title }}]({{ report.path }}.md)
 

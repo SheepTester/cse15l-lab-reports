@@ -6,3 +6,6 @@ url: https://sheeptester.github.io # the base hostname & protocol for your site,
 # Build settings
 plugins:
   - jekyll-sitemap
+
+sass:
+  style: compressed
