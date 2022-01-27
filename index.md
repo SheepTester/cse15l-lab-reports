@@ -1,14 +1,23 @@
 ---
 layout: default
 image: geisel
+reports:
+  - title: Lab Report 1
+    path: lab-report-1-week-2
+  - title: Lab Report 2
+    path: lab-report-2-week-4
 ---
 
 whatever you like
 
 [Playing with Markdown](https://sheeptester.github.io/cse15l-lab-reports/any%20name%20you%20choose.html)
 
-- [Lab Report 1](lab-report-1-week-2.html)
-- [Lab Report 1](https://sheeptester.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
-- [Lab Report 1](lab-report-1-week-2.md)
+{% for report in page.reports %}
+
+- [{{ report.title }}]({{ report.path }}.html)
+- [{{ report.title }}](https://sheeptester.github.io/cse15l-lab-reports/{{ report.path }}.html)
+- [{{ report.title }}]({{ report.path }}.md)
+
+{% endfor %}
 
 [GitHub repo](https://github.com/SheepTester/cse15l-lab-reports)
