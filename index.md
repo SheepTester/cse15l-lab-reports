@@ -6,8 +6,10 @@ reports:
     path: lab-report-1-week-2
   - title: Lab Report 2
     path: lab-report-2-week-4
-  - title: Lab Report 3
+  - title: Streamlining SSH configuration
     path: lab-report-3-week-6
+  - title: Week 8 lab report
+    path: lab-report-4-week-8
 ---
 
 whatever you like
