@@ -10,6 +10,8 @@ reports:
     path: lab-report-3-week-6
   - title: Week 8 lab report
     path: lab-report-4-week-8
+  - title: Lab report 5
+    path: lab-report-5-week-10
 ---
 
 whatever you like
