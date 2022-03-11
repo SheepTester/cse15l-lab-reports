@@ -82,3 +82,10 @@ h3 {
     color: #fde047;
   }
 }
+blockquote {
+  border-left: 5px solid rgba(255, 255, 255, 0.3);
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
